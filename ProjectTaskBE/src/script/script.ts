@@ -100,7 +100,8 @@ const userEmailsData = [
   },
 ];
 
-// Unique values by email //
+// Unique values by email(expands object with values and users with same numbers is allowed) //
+
 // const CombineArrays = (array1, array2) => {
 //   const map = [];
 //   userPhoneNumberData.map(({ email, ...item }) => {
@@ -123,6 +124,8 @@ const userEmailsData = [
 // };
 
 // CombineArrays(userPhoneNumberData, userEmailsData);
+
+// Unique values by email and phone number(so only distinct of emails and phonenumbers are in result array)
 
 const CombineArrays2 = (array1, array2) => {
   const map = [];
